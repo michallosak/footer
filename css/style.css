@@ -1,0 +1,101 @@
+body, html {
+    font-family: 'Lato', sans-serif;
+}
+
+footer, footer a {
+    color: #4a4848;
+}
+
+footer .row.bottom {
+    margin-top: 55px;
+}
+
+.logo-footer img {
+    width: 100%;
+}
+
+.footer-contact img {
+    width: 25px;
+    float: left;
+    margin-right: 20px;
+}
+
+.footer-contact {
+    line-height: 24px;
+    font-weight: 100;
+    font-size: 15px;
+    display: block;
+}
+
+.footer-greeting {
+    padding: 10px 0 10px;
+    font-size: 17px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.footer-bottom {
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.footer-author {
+    font-size: 21px;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+
+.footer-author span {
+    display: block;
+    font-size: 14px;
+    letter-spacing: 0;
+    margin-top: 2px;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+a, a:hover {
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 767px) {
+    .footer-author{
+        text-align: center;
+    }
+    .footer-greeting{text-align: center}
+    .footer-contact{
+        text-align: center;
+        margin-left: 0;
+    }
+    .footer-contact img {
+        width: 25px;
+        margin-right: 0;
+        float: none;
+    }
+    img.sm-icon {
+        margin-right: 10px;
+    }
+    footer .row.bottom {
+        margin-top: 0;
+    }
+    .footer-bottom {
+        text-align: center;
+        font-size: 11px;
+        margin-bottom: 7px;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .footer-author{
+        text-align: center;
+    }
+    .logo-footer{
+        text-align: center;
+    }
+    .logo-footer img{
+        width: 50%;
+        margin-bottom: 25px;
+    }
+
+}
