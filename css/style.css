@@ -1,9 +1,6 @@
-body, html {
-    font-family: 'Lato', sans-serif;
-}
-
 footer, footer a {
     color: #4a4848;
+    font-family: 'Lato', sans-serif;
 }
 
 footer .row.bottom {
@@ -51,34 +48,44 @@ footer .row.bottom {
     letter-spacing: 0;
     margin-top: 2px;
 }
+
 .img-fluid {
     max-width: 100%;
     height: auto;
 }
+
 a, a:hover {
     text-decoration: none;
 }
 
 @media only screen and (max-width: 767px) {
-    .footer-author{
+    .footer-author {
         text-align: center;
     }
-    .footer-greeting{text-align: center}
-    .footer-contact{
+
+    .footer-greeting {
+        text-align: center
+    }
+
+    .footer-contact {
         text-align: center;
         margin-left: 0;
     }
+
     .footer-contact img {
         width: 25px;
         margin-right: 0;
         float: none;
     }
+
     img.sm-icon {
         margin-right: 10px;
     }
+
     footer .row.bottom {
         margin-top: 0;
     }
+
     .footer-bottom {
         text-align: center;
         font-size: 11px;
@@ -87,13 +94,15 @@ a, a:hover {
 }
 
 @media only screen and (max-width: 575px) {
-    .footer-author{
+    .footer-author {
         text-align: center;
     }
-    .logo-footer{
+
+    .logo-footer {
         text-align: center;
     }
-    .logo-footer img{
+
+    .logo-footer img {
         width: 50%;
         margin-bottom: 25px;
     }
